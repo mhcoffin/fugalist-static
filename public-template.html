@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+    <div class="header-title">
+        <a class="fugalist" href="https://fugalist.com">Fugalist</a>
+    </div>
+    <div class="ad"></div>
+</div>
+
+<div class="main-body">
+    <div class="name">{{.Name}}</div>
+    <div class="contributor part">
+        <span class="section">Contributed by</span>{{.Contributor}}
+    </div>
+    <div class="description part">
+        <span class="section">Description</span>
+        {{.Description}}
+    </div>
+    <div class="plugins part">
+        <span class="section">Plugins</span>
+        {{.Plugins}}
+    </div>
+    <div class="tags part">
+        <span class="section">Tags</span>
+        {{.Tags}}
+        <div class="version part">
+            <span class="section">Version</span>{{.Version}}
+        </div>
+        <div class="demo-section part">
+            <span class="section">Demos</span>
+            <div class="demo">
+                <a href="https://firebasestorage.googleapis.com/v0/b/fugalist.appspot.com/o/Users%2FVRf7soDS0BQ6praLnktgJfD5CVa2%2FProjects%2FOz8i5oWCWe%2FCello%20Suite%202.pdf?alt=media&token=dfb52990-42f3-4900-be63-e5d05a7eea3a"
+                   class="demo-label"
+                >
+                    Legato
+                </a>
+                <audio controls class="audio"
+                       src="https://firebasestorage.googleapis.com/v0/b/fugalist.appspot.com/o/Users%2FVRf7soDS0BQ6praLnktgJfD5CVa2%2FProjects%2FOz8i5oWCWe%2FAutumn%20Rondo.mp3?alt=media&token=ac405bc2-d857-49ec-a9a7-6f6207c65c5e">
+                    Sorry, audio not supported
+                </audio>
+            </div>
+            <div class="demo">
+                <span class="demo-label">Staccato</span>
+                <audio controls class="audio"
+                       src="https://firebasestorage.googleapis.com/v0/b/fugalist.appspot.com/o/Users%2FVRf7soDS0BQ6praLnktgJfD5CVa2%2FProjects%2FOz8i5oWCWe%2FAutumn%20Rondo.mp3?alt=media&token=ac405bc2-d857-49ec-a9a7-6f6207c65c5e">
+                    Sorry, audio not supported
+                </audio>
+            </div>
+            <div class="demo">
+                <span class="demo-label">Longer</span>
+                <audio controls class="audio"
+                       src="https://firebasestorage.googleapis.com/v0/b/fugalist.appspot.com/o/Users%2FVRf7soDS0BQ6praLnktgJfD5CVa2%2FProjects%2FOz8i5oWCWe%2FAutumn%20Rondo.mp3?alt=media&token=ac405bc2-d857-49ec-a9a7-6f6207c65c5e">
+                    Sorry, audio not supported
+                </audio>
+            </div>
+        </div>
+
+        <div class="download part">
+            <a href="https://firebasestorage.googleapis.com/v0/b/fugalist.appspot.com/o/Users%2FVRf7soDS0BQ6praLnktgJfD5CVa2%2FProjects%2FOz8i5oWCWe%2Ftest.doricolib?alt=media&token=2c4e561e-ada7-4b03-bc92-de4636252a24"
+               class="download-url">
+                Download
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

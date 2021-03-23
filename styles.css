@@ -25,7 +25,6 @@ body {
   height: 90px;
   background-color: #85a2e0;
   padding-top: 0;
-  margin-bottom: 0.5em;
 }
 
 .header-title {
@@ -35,8 +34,8 @@ body {
 }
 
 .fugalist {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   font-family: "Roboto Thin", sans-serif;
   font-weight: normal;
   font-size: xx-large;
@@ -44,18 +43,19 @@ body {
   text-decoration: none;
 }
 
-.fugalist:hover {
-  color: #040a4c;
+.main-body {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.part {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .name {
   font-size: x-large;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-.main-body {
-  padding-left: 1rem;
 }
 
 .contributor {
@@ -87,6 +87,20 @@ body {
 .demo-label {
   flex-basis: 10rem;
   margin-left: 2rem;
+  text-decoration: none;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.tags {
+  text-transform: uppercase;
+  font-family: "Roboto Light", sans-serif;
+  font-size: smaller;
 }
 
 /*# sourceMappingURL=styles.css.map */
