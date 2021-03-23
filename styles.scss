@@ -1,47 +1,99 @@
-$left-gutter: 0.5rem;
 
-.header {
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  height: 90px;
-  font-size: large;
-  background-color: aqua;
-  padding-left: $left-gutter;
-  padding-top: 0;
-  margin-bottom: .5em;
-}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 
-.name {
-  font-size: larger;
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
-
-.contributor {
-  font-size: smaller;
-}
-
-.ad {
-  background-color: #a52a2a;
-}
-
-.description {
-  padding: .5rem;
-}
-
-.section {
-  font-weight: bold;
-}
-
-.plugins {
-  padding: .5rem;
-}
-
-.version {
-  padding: .5rem;
-}
+$gutter: 2.0rem;
 
 body {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  height: 90px;
+  background-color: #85a2e0;
+  padding-top: 0;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fugalist {
+  margin-left: $gutter;
+  margin-right: $gutter;
+  font-family: "Roboto Thin", sans-serif;
+  font-weight: normal;
+  font-size: xx-large;
+  color: rgba(2,6,49,1);
+  text-decoration: none;
+}
+
+.main-body {
+  padding-top: $gutter * 0.5;
+  padding-left: $gutter;
+  padding-right: $gutter;
+}
+
+.part {
+  margin-top: .5rem;
+  margin-bottom: .5rem
+}
+
+.name {
+  font-size: x-large;
+}
+
+.contributor {
+  margin-bottom: .5rem;
+}
+
+.ad {
+  background-color: #963636;
+}
+
+.section {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.audio {
+  height: 1rem;
+  width: 30rem;
+  flex-basis: 1fr;
+}
+
+.demo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: .5rem
+}
+
+.demo-label {
+  flex-basis: 10rem;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.tags {
+  text-transform: uppercase;
+  font-family: "Roboto Light", sans-serif;
+  font-size: smaller;
+}
+
+
+
